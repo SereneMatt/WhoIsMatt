@@ -11,6 +11,8 @@
 		E7E570E42980EB8500163578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E570E32980EB8500163578 /* ContentView.swift */; };
 		E7E570E62980EB8700163578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E570E52980EB8700163578 /* Assets.xcassets */; };
 		E7E570E92980EB8700163578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E570E82980EB8700163578 /* Preview Assets.xcassets */; };
+		E7E570F22982421C00163578 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E570F12982421C00163578 /* SwiftUIView.swift */; };
+		E7E570F42982467300163578 /* shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E570F32982467300163578 /* shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E7E570E32980EB8500163578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7E570E52980EB8700163578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7E570E82980EB8700163578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7E570F12982421C00163578 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E7E570F32982467300163578 /* shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				E7E570E12980EB8500163578 /* WhoIsMattApp.swift */,
 				E7E570E32980EB8500163578 /* ContentView.swift */,
+				E7E570F32982467300163578 /* shapes.swift */,
 				E7E570E52980EB8700163578 /* Assets.xcassets */,
 				E7E570E72980EB8700163578 /* Preview Content */,
+				E7E570F12982421C00163578 /* SwiftUIView.swift */,
 			);
 			path = WhoIsMatt;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				E7E570E42980EB8500163578 /* ContentView.swift in Sources */,
 				E7E570E22980EB8500163578 /* WhoIsMattApp.swift in Sources */,
+				E7E570F22982421C00163578 /* SwiftUIView.swift in Sources */,
+				E7E570F42982467300163578 /* shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

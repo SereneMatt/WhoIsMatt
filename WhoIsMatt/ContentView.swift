@@ -13,8 +13,17 @@ struct ContentView: View {
     }
 }
 
+struct signature: View {
+    var body: some View {
+        RoundedRectangle(cornerRadius: 10)
+            .trim(from: 0.4, to: 1.0)
+            .frame(width: 300, height: 200)
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        signature()
     }
 }
